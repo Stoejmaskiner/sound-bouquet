@@ -22,3 +22,21 @@ Second iteration: using the insight gained in the development of an MVP, a more 
 ## Pitch
 
 Imagine you make sample packs, either commercially or in order to manage your own sample library. The audio editors you can choose from are great on single samples, but are clunky and impractical for working on batches of samples. On the other hand, sample managers are great at renaming, tagging and moving batches of samples, but have few or no editing tools. Sound Bouquet comes to the rescue, offering batch editing and management tools that allow you to quickly apply common edits to the audio and metadata across a selection of files. You can apply normalization, you can chop samples so that they match in length or so that they don't exceed a certain length, you can fade samples in and out, you can splice a sample into multiple samples, which are saved and named automatically, you can use patterns that automatically generate file names for a selection of samples, you can convert a batch of files of different formats into a common format, you can automatically trim silence from the start of samples.
+
+## MVP Features
+
+- can open, read and write WAV files
+- can browse and visualize the file system
+- has a live contextual preview of the focussed file(s)
+- can edit basic metadata in batches
+- can perform some basic group actions
+  - normalize peak
+  - normalize RMS
+  - trim from batch end
+  - trim from sample end
+  - trim from start
+  - fade in
+  - fade out
+- store edits undistructively
+- edits are committed by saving all
+- uncommitted edits are cached and recalled in case of crash
