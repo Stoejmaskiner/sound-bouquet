@@ -18,3 +18,7 @@ First iteration: development of a minimum viable product (MVP) prototype
 
 Second iteration: using the insight gained in the development of an MVP, a more robust and large scale architecture and maintenance plan needs to be formulated, and the full-scale application is developed, some code reuse may happen, but this is largely expected to be a complete re-write.
 - [ ] TBA
+
+## Pitch
+
+Imagine you make sample packs, either commercially or in order to manage your own sample library. The audio editors you can choose from are great on single samples, but are clunky and impractical for working on batches of samples. On the other hand, sample managers are great at renaming, tagging and moving batches of samples, but have few or no editing tools. Sound Bouquet comes to the rescue, offering batch editing and management tools that allow you to quickly apply common edits to the audio and metadata across a selection of files. You can apply normalization, you can chop samples so that they match in length or so that they don't exceed a certain length, you can fade samples in and out, you can splice a sample into multiple samples, which are saved and named automatically, you can use patterns that automatically generate file names for a selection of samples, you can convert a batch of files of different formats into a common format, you can automatically trim silence from the start of samples.
